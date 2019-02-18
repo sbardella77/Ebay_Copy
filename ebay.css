@@ -1,0 +1,110 @@
+ /* main menu*/
+ 
+ ul li , a{
+    text-decoration: none;
+    list-style:none;
+    color: black;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(224, 26, 26);
+}
+
+.menu-bar {
+    /* border:solid 2px grey; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid grey 2px;
+    height:30px;
+    
+
+}
+.menu-left{
+    margin-top:0%;
+    color: grey;
+    width: 70%;     
+    /* border:solid 2px grey; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1%;
+    
+
+}
+/* .menu-left li{
+    padding-right: 1px;
+} */
+
+.menu-right{
+    margin-top:0%;
+
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+
+}
+/*  find menu */
+.search-bar{
+    /* border:solid 2px grey; */
+    /* height: 50px; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo-home{
+    background-image: url(/assets/image/ebay.png);
+    background-position: 1px -20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    border:solid 2px grey;
+    width: 100px;
+    height: 50px;
+}
+
+#txt-src{
+    /* margin-top: 10px; */
+    border-radius: 4px;
+
+    font-size: 18px;
+    border:solid 2px grey;
+    width: 50%;
+    /* height: 35px;; */
+}
+
+#slc-product{
+    border-radius: 4px;
+
+    margin-left: -20px;
+    font-size: 18px;
+    /* border:solid 2px grey; */
+    width: 15%;
+}
+
+.src-btn{
+
+    border-radius: 5px;
+    width: 10%;
+    justify-content: center;
+    background-color: rgb(2, 64, 122);
+    color:white;
+    font-size: 18px;
+
+}
+
+.src-btn-more{
+        border:solid 2px grey;
+        font-size: 18px;
+        color: grey;
+        justify-items: center;
+
+}
+
+
